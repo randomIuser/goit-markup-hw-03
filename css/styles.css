@@ -64,8 +64,9 @@ img {
   display: block;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 /* CARD SET */
 .card-set {
@@ -81,6 +82,10 @@ img {
   border-bottom: 1px solid var(--borders-color);
 }
 .header-container {
+  display: flex;
+  align-items: center;
+}
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -112,6 +117,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding: 24px 0;
 }
 .header-nav-link:hover {
   color: var(--active-color);
