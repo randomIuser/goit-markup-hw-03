@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 :root {
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -13,7 +19,7 @@
 body {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #434455;
+  color: var(--secondary-text-color);
   background-color: var(--active-btn-text);
 }
 /* General classes */
