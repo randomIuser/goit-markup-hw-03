@@ -154,7 +154,7 @@ img {
 /* HERO */
 .hero-section {
   background-color: var(--primary-text-color);
-  height: 600px;
+  padding: 188px 0;
 }
 .hero-slogan {
   color: var(--active-btn-text);
@@ -164,7 +164,7 @@ img {
   text-align: center;
   display: flex;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
 }
 .srvc-btn {
   background-color: var(--link-color);
@@ -178,6 +178,9 @@ img {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   gap: 10px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   cursor: pointer;
   display: block;
   margin: 0 auto;
