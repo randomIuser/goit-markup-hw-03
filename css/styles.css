@@ -128,7 +128,6 @@ img {
 .header-nav-link,
 .contacts-item {
   display: block;
-  padding: 30px;
 }
 .contacts {
   font-style: normal;
@@ -202,9 +201,6 @@ img {
   display: flex;
   gap: 24px;
   align-items: flex-start;
-  padding: 0px;
-  gap: 8px;
-  margin: 0 156px;
 }
 .values-item {
   width: calc((100% - 72px) / 4);
@@ -242,10 +238,10 @@ img {
   align-items: center;
   padding: 0px 0px 32px;
   gap: 24px;
-  border-radius: 0px 0px 4px 4px;
 }
 .team-list-item {
   background-color: var(--active-btn-text);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-card-descr {
   padding: 32px 16px;
