@@ -281,6 +281,7 @@ img {
   gap: 24px;
   display: flex;
   justify-content: center;
+  padding-bottom: 72px;
 }
 .btn {
   color: var(--link-color);
